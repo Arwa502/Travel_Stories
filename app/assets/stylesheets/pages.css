@@ -48,6 +48,11 @@ body {
     padding: 1rem;
   }
   
+  header {
+    background: #47297B;
+    color: white;
+    padding: 2rem;
+  }
   /* Sidebar Styles */
   #sidebar {
     position: fixed;
@@ -71,7 +76,7 @@ body {
   }
   
   #sidebar ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 1.2rem;
     display: block;
@@ -91,4 +96,86 @@ body {
   .close-icon {
     left: 215px; /* Position close button inside sidebar */
   }
+  .about-main {
+    height: 60vh;
+    background: url('https://www.zicasso.com/static/87aa4cbd55cb08d9411ed018afbc8217/4793f/87aa4cbd55cb08d9411ed018afbc8217.webp') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .about-main h1 {
+    font-size: 3rem;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .about-supporting {
+    text-align: center;
+    padding: 50px 10%;
+  }
+  
+  .about-supporting h2 {
+    font-size: 2rem;
+    color: #47297B;
+  }
+  
+  .about-supporting p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 10px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background: #FFE863;
+    color: #47297B;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  .thanks-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background: url('https://www.zicasso.com/static/87aa4cbd55cb08d9411ed018afbc8217/4793f/87aa4cbd55cb08d9411ed018afbc8217.webp') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  h1 {
+    font-size: 28px;
+    color: #f0e9e9;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #f2eedb;
+    margin-bottom: 20px;
+  }
+  
+  .btn-home {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ecd572;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn-home:hover {
+    background: #5f5105;
+  }
+  
   
